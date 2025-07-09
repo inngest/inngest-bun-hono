@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "wrangler dev --port 3000 src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.3.6",
+    "inngest": "^3.31.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250129.0",
+    "wrangler": "^3.107.0"
+  }
+}
