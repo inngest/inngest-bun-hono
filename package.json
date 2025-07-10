@@ -4,8 +4,9 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
-    "hono": "^4.3.6",
-    "inngest": "^3.31.1"
+    "@inngest/middleware-encryption": "^1.0.1",
+    "hono": "^4.8.4",
+    "inngest": "^3.40.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250129.0",
